@@ -1,0 +1,141 @@
+body {
+  text-align: center;
+  background-color: #80b918;
+  font-family: Rockwell;
+}
+
+.div2 {
+  background-color: #9ef01a;
+  text-align: center;
+  border-radius: 15%;
+  margin: 0px auto;
+  width: 50%;
+  border-color: white;
+  border-width: 6px;
+  border-style: solid;
+  margin-bottom: 5px;
+}
+
+.div3 {
+  background-color: #9ef01a;
+  text-align: center;
+  border-radius: 15%;
+  margin: 0px auto;
+  width: 50%;
+  border-color: white;
+  border-width: 6px;
+  border-style: solid;
+  margin-bottom: 12px;
+}
+
+.div4 {
+  background-color: #9ef01a;
+  text-align: center;
+  border-radius: 8%;
+  margin: 0% auto;
+  width: 50%;
+  border-color: white;
+  border-width: 6px;
+  border-style: solid;
+  margin-top: 12px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+}
+
+h2 {
+  color: #38b000;
+}
+
+p {
+  color: #008000;
+  font-size: 20px;
+}
+
+.huge-word {
+  color: #007200;
+}
+
+ul {
+  color: #38b000;
+  text-align: center;
+}
+
+.fa-instagram {
+  color: #38b000;
+  font-size: 20px;
+}
+
+.fa-linkedin-in {
+  color: #38b000;
+  font-size: 20px;
+}
+
+.fa-github {
+  color: #38b000;
+  font-size: 20px;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: #9ef01a;
+  text-align: center;
+  border-radius: 15%;
+  margin-bottom: 20px;
+  width: 10%;
+  border-color: white;
+  border-width: 3px;
+  border-style: solid;
+  padding: 7px;
+}
+
+#my_picture {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  border-width: 8px;
+}
+
+.button:hover {
+  color: #fcbf49;
+  box-shadow: 5px 5px 10px;
+}
+
+.fa-instagram:hover {
+  color: #fcbf49;
+}
+
+.fa-linkedin-in:hover {
+  color: #fcbf49;
+}
+
+.fa-github:hover {
+  color: #fcbf49;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
